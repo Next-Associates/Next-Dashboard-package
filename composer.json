@@ -1,0 +1,34 @@
+{
+    "name": "next-associates/next-dashboard-package",
+    "description": "Next Dashboard Api as package",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "nextdev\\nextdashboard\\": "src/",
+            "Database\\": "database/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Next-Associates",
+            "email": "m.nagah@nextecontech.ai"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+
+        "illuminate/support": "^10.0 || ^11.0 || ^12.0",
+        "illuminate/database": "^10.0 || ^11.0 || ^12.0",
+        "illuminate/http": "^10.0 || ^11.0 || ^12.0",
+        "illuminate/validation": "^10.0 || ^11.0 || ^12.0",
+        "illuminate/routing": "^10.0 || ^11.0 || ^12.0",
+        "illuminate/auth": "^10.0 || ^11.0 || ^12.0",
+
+        "spatie/laravel-medialibrary": "^11.5",
+        "spatie/laravel-permission": "^6.0",
+        "spatie/laravel-activitylog": "^4.10",
+        "spatie/laravel-translatable": "^6.11"
+    }
+}
